@@ -7,7 +7,7 @@ export default {
   components: { FrontendLayout, BackendLayout, GuestLayout },
   computed: {
     layoutPosition() {
-      const { component = ''} = this.$page;
+      const { component = '' } = this.$page;
       const fileName = [
         { code: 'Frontend', com: 'FrontendLayout' },
         { code: 'Backend', com: 'BackendLayout' },
